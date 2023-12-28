@@ -437,8 +437,8 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.9.x-dev",
-            "version_normalized": "7.9.9999999.9999999-dev",
+            "version": "7.8.1",
+            "version_normalized": "7.8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
@@ -773,8 +773,8 @@
         },
         {
             "name": "illuminate/config",
-            "version": "7.x-dev",
-            "version_normalized": "7.9999999.9999999.9999999-dev",
+            "version": "v7.30.6",
+            "version_normalized": "7.30.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -929,8 +929,8 @@
         },
         {
             "name": "illuminate/database",
-            "version": "7.x-dev",
-            "version_normalized": "7.9999999.9999999.9999999-dev",
+            "version": "v7.30.6",
+            "version_normalized": "7.30.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -998,8 +998,8 @@
         },
         {
             "name": "illuminate/support",
-            "version": "7.x-dev",
-            "version_normalized": "7.9999999.9999999.9999999-dev",
+            "version": "v7.30.6",
+            "version_normalized": "7.30.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1067,8 +1067,8 @@
         },
         {
             "name": "jeroenzwart/laravel-csv-seeder",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "version": "v1.6.3",
+            "version_normalized": "1.6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeroenzwart/laravel-csv-seeder.git",
@@ -1086,7 +1086,6 @@
                 "php": ">=5.4.0"
             },
             "time": "2023-09-18T21:01:59+00:00",
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1305,8 +1304,8 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v4.x-dev",
-            "version_normalized": "4.9999999.9999999.9999999-dev",
+            "version": "v4.3.0",
+            "version_normalized": "4.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
@@ -1715,17 +1714,17 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.x-dev",
-            "version_normalized": "3.0.9999999.9999999-dev",
+            "version": "3.0.34",
+            "version_normalized": "3.0.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "4bdfec9c230d694ac8d6a41e6b992b29d4610103"
+                "reference": "56c79f16a6ae17e42089c06a2144467acc35348a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4bdfec9c230d694ac8d6a41e6b992b29d4610103",
-                "reference": "4bdfec9c230d694ac8d6a41e6b992b29d4610103",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56c79f16a6ae17e42089c06a2144467acc35348a",
+                "reference": "56c79f16a6ae17e42089c06a2144467acc35348a",
                 "shasum": ""
             },
             "require": {
@@ -1743,7 +1742,7 @@
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
                 "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
             },
-            "time": "2023-12-27T06:47:36+00:00",
+            "time": "2023-11-27T11:13:31+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -1808,7 +1807,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.34"
             },
             "funding": [
                 {
@@ -2140,17 +2139,17 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.x-dev",
-            "version_normalized": "8.5.9999999.9999999-dev",
+            "version": "8.5.36",
+            "version_normalized": "8.5.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d6291b9660c6c671aaaf279880ea5d44ecbaa292"
+                "reference": "9652df58e06a681429d8cfdaec3c43d6de581d5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d6291b9660c6c671aaaf279880ea5d44ecbaa292",
-                "reference": "d6291b9660c6c671aaaf279880ea5d44ecbaa292",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9652df58e06a681429d8cfdaec3c43d6de581d5a",
+                "reference": "9652df58e06a681429d8cfdaec3c43d6de581d5a",
                 "shasum": ""
             },
             "require": {
@@ -2184,7 +2183,7 @@
                 "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage",
                 "phpunit/php-invoker": "To allow enforcing time limits"
             },
-            "time": "2023-12-27T13:57:37+00:00",
+            "time": "2023-12-01T16:52:15+00:00",
             "bin": [
                 "phpunit"
             ],
@@ -2221,7 +2220,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.36"
             },
             "funding": [
                 {
@@ -4531,17 +4530,17 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "version": "v5.6.0",
+            "version_normalized": "5.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "334f4952967f3ee6cdb2004e05e0bd01b525d56b"
+                "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/334f4952967f3ee6cdb2004e05e0bd01b525d56b",
-                "reference": "334f4952967f3ee6cdb2004e05e0bd01b525d56b",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
+                "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
                 "shasum": ""
             },
             "require": {
@@ -4561,13 +4560,12 @@
             "suggest": {
                 "ext-filter": "Required to use the boolean validator."
             },
-            "time": "2023-11-12T22:52:03+00:00",
-            "default-branch": true,
+            "time": "2023-11-12T22:43:29+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
                     "bin-links": true,
-                    "forward-command": false
+                    "forward-command": true
                 },
                 "branch-alias": {
                     "dev-master": "5.6-dev"
@@ -4603,7 +4601,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/master"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.0"
             },
             "funding": [
                 {

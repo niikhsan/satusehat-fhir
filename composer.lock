@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70dfee8af896f3c435bad5e7abe31975",
+    "content-hash": "7a9784ba9583dc85031a03c064ec8f2f",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -231,7 +231,7 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.9.x-dev",
+            "version": "7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
@@ -558,7 +558,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "7.x-dev",
+            "version": "v7.30.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -705,7 +705,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "7.x-dev",
+            "version": "v7.30.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -771,7 +771,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "7.x-dev",
+            "version": "v7.30.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -837,7 +837,7 @@
         },
         {
             "name": "jeroenzwart/laravel-csv-seeder",
-            "version": "dev-master",
+            "version": "v1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeroenzwart/laravel-csv-seeder.git",
@@ -854,7 +854,6 @@
                 "illuminate/support": ">=5.0",
                 "php": ">=5.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1198,16 +1197,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.x-dev",
+            "version": "3.0.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "4bdfec9c230d694ac8d6a41e6b992b29d4610103"
+                "reference": "56c79f16a6ae17e42089c06a2144467acc35348a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4bdfec9c230d694ac8d6a41e6b992b29d4610103",
-                "reference": "4bdfec9c230d694ac8d6a41e6b992b29d4610103",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56c79f16a6ae17e42089c06a2144467acc35348a",
+                "reference": "56c79f16a6ae17e42089c06a2144467acc35348a",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1287,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.34"
             },
             "funding": [
                 {
@@ -1304,7 +1303,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-27T06:47:36+00:00"
+            "time": "2023-11-27T11:13:31+00:00"
         },
         {
             "name": "psr/clock",
@@ -2670,16 +2669,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "dev-master",
+            "version": "v5.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "334f4952967f3ee6cdb2004e05e0bd01b525d56b"
+                "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/334f4952967f3ee6cdb2004e05e0bd01b525d56b",
-                "reference": "334f4952967f3ee6cdb2004e05e0bd01b525d56b",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
+                "reference": "2cf9fb6054c2bb1d59d1f3817706ecdb9d2934c4",
                 "shasum": ""
             },
             "require": {
@@ -2699,12 +2698,11 @@
             "suggest": {
                 "ext-filter": "Required to use the boolean validator."
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "bamarni-bin": {
                     "bin-links": true,
-                    "forward-command": false
+                    "forward-command": true
                 },
                 "branch-alias": {
                     "dev-master": "5.6-dev"
@@ -2739,7 +2737,7 @@
             ],
             "support": {
                 "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/master"
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.0"
             },
             "funding": [
                 {
@@ -2751,7 +2749,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-12T22:52:03+00:00"
+            "time": "2023-11-12T22:43:29+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -3086,7 +3084,7 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v4.x-dev",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
@@ -3582,16 +3580,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.x-dev",
+            "version": "8.5.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d6291b9660c6c671aaaf279880ea5d44ecbaa292"
+                "reference": "9652df58e06a681429d8cfdaec3c43d6de581d5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d6291b9660c6c671aaaf279880ea5d44ecbaa292",
-                "reference": "d6291b9660c6c671aaaf279880ea5d44ecbaa292",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9652df58e06a681429d8cfdaec3c43d6de581d5a",
+                "reference": "9652df58e06a681429d8cfdaec3c43d6de581d5a",
                 "shasum": ""
             },
             "require": {
@@ -3660,7 +3658,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.36"
             },
             "funding": [
                 {
@@ -3676,7 +3674,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-27T13:57:37+00:00"
+            "time": "2023-12-01T16:52:15+00:00"
         },
         {
             "name": "psr/log",
@@ -4510,18 +4508,8 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "guzzlehttp/guzzle": 20,
-        "illuminate/config": 20,
-        "illuminate/database": 20,
-        "illuminate/support": 20,
-        "jeroenzwart/laravel-csv-seeder": 20,
-        "phpseclib/phpseclib": 20,
-        "vlucas/phpdotenv": 20,
-        "phpunit/phpunit": 20,
-        "nunomaduro/collision": 20
-    },
-    "prefer-stable": false,
+    "stability-flags": [],
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.2"
