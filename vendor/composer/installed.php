@@ -3,7 +3,7 @@
         'name' => 'niikhsan/satusehat-fhir',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'd9db75c65f0e8f68da9e96bbc4e5ae5d80c034e8',
+        'reference' => 'e1429a092a6c1bc968598e9f419290c13f707b0e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -157,7 +157,7 @@
         'niikhsan/satusehat-fhir' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'd9db75c65f0e8f68da9e96bbc4e5ae5d80c034e8',
+            'reference' => 'e1429a092a6c1bc968598e9f419290c13f707b0e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
