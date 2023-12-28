@@ -3,7 +3,7 @@
         'name' => 'niikhsan/satusehat-fhir',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'e1429a092a6c1bc968598e9f419290c13f707b0e',
+        'reference' => 'ddcc75e3a47cbd74bc58dac979481a8ced819010',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -91,6 +91,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'illuminate/config' => array(
+            'pretty_version' => 'v7.30.6',
+            'version' => '7.30.6.0',
+            'reference' => '9d908793eceb04a8c8f74cfc6af3429ce140d2e2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../illuminate/config',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'illuminate/container' => array(
             'pretty_version' => 'v7.30.6',
             'version' => '7.30.6.0',
@@ -157,7 +166,7 @@
         'niikhsan/satusehat-fhir' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'e1429a092a6c1bc968598e9f419290c13f707b0e',
+            'reference' => 'ddcc75e3a47cbd74bc58dac979481a8ced819010',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
